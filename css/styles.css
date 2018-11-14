@@ -1,0 +1,31 @@
+.rotateimg90{
+    transform: rotate(90deg);
+}
+
+input.fullnameIn {
+   border: 2px solid rgb(119, 119, 119);
+    width: 55%;
+    background-color: rgb(255, 230, 0);
+}
+
+input.emailIn {
+    border: 2px solid rgb(119, 119, 119);
+    width: 55%;
+    background-color: rgb(255, 230, 0);
+}
+
+select {
+    padding-bottom: 2px;
+    border: 2px solid rgb(119, 119, 119);
+    background-color: rgb(255, 230, 0);
+}
+
+option{
+    border: 2px solid rgb(119, 119, 119);
+    background-color: rgb(255, 230, 0);
+}
+
+input.submitIn{
+    border: 2px solid rgb(119, 119, 119);
+    background-color: rgb(255, 230, 0);
+}

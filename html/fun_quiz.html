@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/navbar_styles.css">
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<script type="text/javascript" src="../js/actions.js"></script>
+	<link rel="shortcut icon" type="image/png" href="../favicons/DerpyCharmander.ico"/>
+	<title>Fun Quiz</title>
+</head>
+
+<body>
+	<div class="topnav">
+	  <a href="index.html">Home</a>
+	  <a class="active" href="fun_quiz.html">Fun-Quiz</a>
+	  <a href="videos.html">Videos</a>
+	</div>
+	
+	<form id="form">
+		Fullname:<br>
+		<input type="text" class="fullnameIn" name="name" placeholder="John Doe"><br>
+		Email:<br>
+		<input type="email" class="emailIn"name="email" placeholder="johndoe@email.com"><br>
+
+		<select>
+			<option value="" selected="selected">Select a class level</option>
+			<option value="freshman">Freshman</option>
+			<option value="sophomore">Sophomore</option>
+			<option value="junior">Junior</option>
+			<option value="senior">Senior</option>
+			<option value="graduate">Graduate</option>
+		</select><br>
+
+		What is your favorite color?<br>
+		<input type="checkbox" name="color" value="red">Red<br>
+		<input type="checkbox" name="color" value="blue">Blue<br>
+		<input type="checkbox" name="color" value="yellow">Yellow<br>
+		<input type="checkbox" id="otherBox" name="color" value="" onclick="showText()">Other:
+		<input type="hidden" id="otherText"><br>
+
+		<input type="submit" class="submitIn" name="submit" value="Submit" onclick="call()">
+	</form>
+	
+
+</body>
+
+</html>
